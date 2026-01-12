@@ -9,7 +9,7 @@ MYSQL_HOST = "localhost"
 MYSQL_PORT = "3306"
 MYSQL_DATABASE = "fastapi_db"
 
-DATABASE_URL = F"mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:{MYSQL_PORT}/{MYSQL_DATABASE}"
+DATABASE_URL = f"mysql+pymysql://{MYSQL_USER}:{MYSQL_PASSWORD}@{MYSQL_HOST}:{MYSQL_PORT}/{MYSQL_DATABASE}"
 
 ## Connection
 engine = create_engine(DATABASE_URL)
